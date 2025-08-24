@@ -86,7 +86,7 @@ def main():
 
             # 检查原谅值并判断游戏状态
             forgiveness_value = extract_forgiveness_value(response)
-            print(f"当前原谅值：{forgiveness_value}")
+            # print(f"当前原谅值：{forgiveness_value}")
 
             if forgiveness_value is not None:
                 if forgiveness_value <= 0:
